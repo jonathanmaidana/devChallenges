@@ -8,7 +8,6 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
     <a href="https://dev-challenges-404-page-rho.vercel.app/">
       Solution
     </a>
