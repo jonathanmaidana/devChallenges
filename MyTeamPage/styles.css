@@ -133,7 +133,7 @@ footer a {
     #container-img{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .gallery-image{
