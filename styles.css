@@ -671,7 +671,12 @@ footer {
     text-align: center;
 }
 
-/* ---------------------------------- mediaquery --------------------------------- */
+footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* ---------------------------------- Mediaquery --------------------------------- */
 @media screen and (max-width: 768px){
     html{
         padding: 30px;
