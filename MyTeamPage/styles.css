@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 5em;
+}
+
+#container{
+    display: grid;
+    place-items: center;
+    gap: 5em;
+}
+
+.header{
+    display: flex;
+    gap: 13em;
+}
+
+.header-subtitle{
+    width: 345px;
+}
+
+.title{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+.title-2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+.subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 0;
+    line-height: 27px;
+    color: #000000;
+}
+
+#container-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.gallery-image{
+    position: relative;
+    width: 230px;
+    padding-right: 1.3rem;
+}
+
+img{
+    width: 100%;
+}
+
+.m1{
+    top: 5em;
+}
+
+.name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.span{
+    font-family: 'PT Serif';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    position: absolute;
+    top: 110px;
+    left: 106px;
+    width: 100%;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+footer {
+    text-align: center;
+    margin-top: 10em;
+    z-index: 100;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;    
+    text-align: center;
+    color: #A9A9A9;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* ------------------------------- Mediaquery ------------------------------- */
+@media screen and (max-width: 768px) {
+    body{
+        padding: 5em 1em 1em 1em;
+    }
+
+    #container{
+        place-items: start;
+    }
+
+    .header{
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    #container-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .gallery-image{
+        position: relative;
+        width: 200px;
+        padding-right: 1.3rem;
+    }
+
+    .span{
+        top: 93px;
+        left: 90px;
+    }
+
+    .m1{
+        top: 0
+    }
+
+    .m2{
+        top: 5em;
+    }
+}
