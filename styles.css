@@ -670,3 +670,59 @@ footer {
     color: #BDBDBD;
     text-align: center;
 }
+
+/* ---------------------------------- mediaquery --------------------------------- */
+@media screen and (max-width: 768px){
+    html{
+        padding: 30px;
+    }
+
+    #not-found{
+        width: 133px;
+        height: 25px;
+        left: 24px;
+        top: 20px;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+    }
+
+    #container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    video{
+        width: 100%;
+    }
+
+    #title{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+
+    .subtitle{
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+    }
+
+    button{
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+    }
+
+    footer{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
